@@ -1,0 +1,17 @@
+body {
+  padding: 20px;
+}
+
+.App {
+  /* 화면을 좌우로 늘려도 자동으로 가운데 배치*/
+  margin: 0 auto;
+  width: 400px;
+}
+
+.App > section {
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
